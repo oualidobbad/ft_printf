@@ -6,7 +6,7 @@
 #    By: oobbad <oobbad@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/29 10:15:33 by oobbad            #+#    #+#              #
-#    Updated: 2024/11/29 11:09:37 by oobbad           ###   ########.fr        #
+#    Updated: 2025/01/02 14:47:02 by oobbad           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,16 +21,16 @@ OBJ = $(SRC:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	ar -rcs $@ $(OBJ)
+	@ar -rcs $@ $(OBJ)
 
 %.o: %.c
-	cc $(FLAGS) -c $< -o $@
+	@cc $(FLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ)
+	@rm -f $(OBJ)
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
 
 re: fclean all
 
