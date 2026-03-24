@@ -1,23 +1,22 @@
 # ft_printf
 
 ## Description
-Printf-compatible formatter implementing core specifiers with buffered output.
+Project by Oualid Obbad.
 
 ## Features
-- Supports `cspdiuxX%` with width/precision and flags.
-- Built on libft helpers.
+- Core functionality and supporting exercises for this repository.
 
 ## Technologies Used
-- C, Makefile.
+- See source files for details.
 
 ## Installation
-- Run `make` to build `libftprintf.a`.
+- Follow provided build or setup instructions.
 
 ## Usage
-- Link `libftprintf.a`; include `ft_printf.h`.
+- Run the binaries or scripts as documented.
 
 ## Example
-- `./a.out "Value %d" 42` after linking the library.
+- Refer to example files included in the project.
 
 ## Author
 - Oualid Obbad (@oualidobbad)
